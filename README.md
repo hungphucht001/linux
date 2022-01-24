@@ -68,8 +68,11 @@ echo "hello" > abc.txt
 ## - Thành thạo các lệnh thêm, xóa, sửa, tìm kiếm, copy, hiển thị nội dung, hiển thị thông tin của file-folder
 
 
-Xóa file
-
+- Xóa file
+```
+rm -i abc.txt //Hỏi trước khi xóa
+rm -f abc.txt //Ép buộc xóa
+```
 - Sửa tên thư mục
 ```
 mv cap1 cap3
@@ -93,7 +96,7 @@ rm -rf cap1
 ```
 - Xóa thư mục rỗng
 ```
-rm abc.txt
+rm -d abc
 ```
 - Di chuyển thư mục
 ```
